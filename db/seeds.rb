@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+artist = Artist.create([
+	{name: 'Nusrat Fateh Ali Khan'}, 
+	{name: 'Sabri Brothers'},
+	{name: 'Aziz Mian'},
+	{name: 'Bakshi Salamat'},
+	{name: 'Sher & Mehr Ali'},
+	{name: 'Santoo Manzoor Khan'}
+]);
